@@ -12,6 +12,14 @@ This means that only approximately 0.036% songs make it to the list each week.
 The purpose of this hit predictor is to give musicians insights about the music they create and if it has chances of appearing on the Billboard Hot 100 list.
 Musicians can input data about various features of their song and observe the prediction made by hitting the 'Hit or Miss' button.
 
+The model is developed using a decision-tree-based ensemble Machine Learning algorithm called the XGBClassifier(XGBoost classifier).
+
+This model was tuned using RandomSearchCV
+
+While guessing a "Hit" song, the model observed the following scores: 
+- Overall Model Accuracy : 84%
+- Precision : 82%
+- Recall: 90%
 
 
 ## Context: 
