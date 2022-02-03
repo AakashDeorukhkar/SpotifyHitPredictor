@@ -21,6 +21,8 @@ While guessing a "Hit" song, the model observed the following scores:
 - Precision : 82%
 - Recall: 90%
 
+## Confusion Matrix
+![Heatmap Confusion Matrix](Images/HeatmapConf.png)
 
 ## Context: 
 This is a dataset consisting of features for tracks fetched using Spotify's Web API. The tracks are labeled '1' or '0' ('Hit' or 'Flop') depending on some criteria of the author.
@@ -86,4 +88,9 @@ The author's condition of a track being 'flop' is as follows:
         - The track's artist must not appear in the 'hit' list of that decade.
         - The track must belong to a genre that could be considered non-mainstream and / or avant-garde. 
         - The track must have 'US' as one of its markets.
-        
+
+## Visualizations of Numeric(Continuous) Features
+![Numeric Features](Images/NumericVariables.png)
+
+## Visualizations of Categorical Features
+![Categorical Features](Images/CategoricalVariables.png)
