@@ -10,9 +10,6 @@ pillow==9.0.1
 joblib==1.1.0
 scikit-learn==1.0.2 
 sklearn==0.0     
-libopenblas==0.3.18     
-libblas==3.9.0        
-libcblas==3.9.0       
 py-xgboost==1.5.1     
 liblapack==3.9.0      
 libxgboost==1.5.1    
