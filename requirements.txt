@@ -245,7 +245,7 @@ wurlitzer==3.0.2
 xgboost==1.5.2
 xlrd==2.0.1
 XlsxWriter==3.0.2
-xlwings==0.24.9
+
 xlwt==1.3.0
 yapf==0.31.0
 zict==2.0.0
