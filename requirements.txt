@@ -189,7 +189,6 @@ Rtree==0.9.7
 
 scikit-image==0.18.3
 scikit-learn==1.0.2
-scikit-learn-intelex==2021.20211201.94539
 scipy==1.7.3
 seaborn==0.11.2
 Send2Trash==1.8.0
