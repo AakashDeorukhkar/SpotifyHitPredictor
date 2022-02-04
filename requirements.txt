@@ -109,8 +109,8 @@ pyobjc-framework-CFNetwork==5.1.2
 pyobjc-framework-CoreText==5.1.1
 pyobjc-framework-CoreData==5.1
 pyobjc-framework-CoreData==5.0
-on pyobjc-framework-WebKit==4.2.2
-on pyobjc-core==4.2.1
+pyobjc-framework-WebKit==4.2.2
+pyobjc-core==4.2.1
 pyobjc-framework-CoreText==4.2
 pyobjc-framework-Cocoa==4.1
 
