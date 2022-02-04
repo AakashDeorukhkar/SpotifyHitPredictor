@@ -1,6 +1,4 @@
 alabaster==0.7.12
-anaconda-client==1.9.0
-anaconda-project==0.10.2
 anyio==2.2.0
 appdirs==1.4.4
 applaunchservices==0.2.1
@@ -37,11 +35,6 @@ click==8.0.3
 cloudpickle==2.0.0
 clyent==1.2.2
 colorama==0.4.4
-conda==4.11.0
-conda-content-trust==0+unknown
-conda-pack==0.6.0
-conda-package-handling==1.7.3
-conda-token==0.3.0
 contextlib2==0.6.0.post1
 cookiecutter==1.7.2
 cryptography==36.0.0
