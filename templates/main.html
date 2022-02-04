@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit Predictor</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/testcss.css')}}">
+    
+    <h1 id="mainhead">WILL YOUR SONG MAKE IT TO THE LIST?</h1>
+    
+</head>
+
+
+
+<body id="bodydiv">
+
+    <div>
+        <form action="{{ url_for('predict')}}" method="post">
+            
+            <div>
+            <h3>DANCEABILITY</h3>
+            <input id="first" name="danceability" type="number" step="any" required='required'>
+            </div>
+            <div>
+            <h3>ENERGY</h3>
+            <input id="second" name="energy" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>KEY</h3>
+            <input id="third" name="key" type="number" required="required">
+            </div><br>
+            <div>
+            <h3>LOUDNESS</h3>
+            <input id="fourth" name="loudness" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>MODE</h3>
+            <select name="mode" id="major_minor" required="required">
+                <option value="Major">Major</option>
+                <option value="Minor">Minor</option>
+            </select>
+            </div>
+            <div>
+            <h3>SPEECHINESS</h3>
+            <input id="sixth" name="speechiness" type="number" step="any" required="required">
+            </div><br>
+            <div>
+            <h3>ACOUSTICNESS</h3>
+            <input id="seventh" name="acousticness" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>INSTRUMENTALNESS</h3>
+            <input id="eighth" name="instrumentalness" type="number" step="any" required="required">
+            </div>
+            <div>  
+            <h3>LIVENESS</h3>
+            <input id="ninth" name="liveness" type="number" step="any" required="required">
+            </div>
+            <br>
+            <div>
+            <h3>VALENCE</h3>
+            <input id="tenth" name="valence" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>TEMPO</h3>
+            <input id="eleventh" name="tempo" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>DURATION (ms)</h3>
+            <input id="twelth" name="duration_ms" type="number" required="required">
+            </div><br>
+            <div>
+            <h3>TIME SIGNATURE</h3>
+            <input id="thirteenth" name="time_signature" type="number" required="required">
+            </div>
+            <div>
+            <h3>CHORUS HITS</h3>
+            <input id="fourteenth" name="chorus_hit" type="number" step="any" required="required">
+            </div>
+            <div>
+            <h3>SECTIONS</h3>
+            <input id="fifteenth" name="sections" type="number" required="required">
+            </div>
+            <br><br><br><button id="sub" type="submit ">HIT OR MISS?
+            </button>
+            <br>
+            
+
+
+
+        </form>
+
+
+        <br><h2 id="pred">{{ prediction_texts }}<h2>
+        
+
+
+    </div>
+ 
+</body>
+<footer id=foot>
+    <h3>Author: Aakash Deorukhkar</h3>
+    <p><a href="mailto:jdaakash@gmail.com">Email</a>
+       <a href="https://www.linkedin.com/in/aakash-deorukhkar/">LinkedIn</a>
+       <a href="https://github.com/AakashDeorukhkar">GitHub</a>
+    </p>
+    
+  </footer>
+
+</html>
