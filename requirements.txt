@@ -8,7 +8,6 @@ astroid==2.6.6
 async-generator==1.10
 atomicwrites==1.4.0
 attrs==21.4.0
-autopep8==1.6.0
 Babel==2.9.1
 backcall==0.2.0
 binaryornot==0.4.4
@@ -84,7 +83,6 @@ prometheus-client==0.13.1
 prompt-toolkit==3.0.20
 psutil==5.8.0
 ptyprocess==0.7.0
-pycodestyle
 pycparser==2.21
 pydocstyle==6.1.1
 pyflakes==2.3.1
@@ -137,7 +135,6 @@ textdistance==4.2.1
 threadpoolctl==3.1.0
 three-merge==0.1.1
 tinycss==0.4
-toml==0.10.2
 tornado==6.1
 traitlets==5.1.1
 typed-ast==1.4.3
