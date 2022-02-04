@@ -1,0 +1,218 @@
+    * {
+    overflow:auto; 
+    }
+   
+    
+        #mainhead {
+            background-color:rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+            font-size: 42px;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-width: 1rem;
+            position: top;
+            margin: 0%;
+            text-align: center;
+            text-justify: distribute;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        h3{
+            background-color: black;
+            color: blanchedalmond;
+
+        }
+        #bodydiv {
+            background: #568788;
+background: -webkit-linear-gradient(bottom right, #568788, #17DC59);
+background: -moz-linear-gradient(bottom right, #568788, #17DC59);
+background: linear-gradient(to top left, #568788, #17DC59);
+            text-align: center ;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            justify-content: space-evenly;
+            padding: 0px;
+        }
+        
+        div {
+             display: inline-block;
+             padding-top: 20px;
+            padding-right: 20px;
+            justify-content: center;
+            padding-left: 20px;
+            }
+
+        div label {
+            
+            display: block;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            }   
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: large;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+        
+        #major_minor {
+            width: 215px;
+            height: 35px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 14px;
+            font-size: 16px;
+            
+        }
+        
+        #major_minor:hover {
+            background-color: rgb(199, 199, 199);
+        }
+        
+        
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fifth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #sixth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #seventh {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #eighth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #ninth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #tenth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #eleventh {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #twelth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #thirteenth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fourteenth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fifteenth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #sub {
+            background-color: black;
+            color: blanchedalmond;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+        
+        #sub:hover {
+            background-color: rgb(66, 66, 66);
+
+        }
+        
+        #pred{
+            background-color: black;
+            color: blanchedalmond;
+            border-style:solid ;
+            border-radius: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #foot{
+            width: 100%;
+            margin: 0;
+            background-color: black;
+            color: blanchedalmond;
+            align-items: center;
+        }
+
+        a{
+            color:blanchedalmond;
+            font-size: 20px;
+        }
