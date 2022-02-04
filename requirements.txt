@@ -9,8 +9,7 @@ matplotlib==3.5.1
 pillow==9.0.1
 joblib==1.1.0
 scikit-learn==1.0.2 
-sklearn==0.0 
-libgfortran==5.0.0    
+sklearn==0.0     
 libopenblas==0.3.18     
 libblas==3.9.0        
 libcblas==3.9.0       
