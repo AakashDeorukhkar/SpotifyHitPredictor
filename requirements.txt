@@ -17,3 +17,4 @@ Werkzeug==2.0.2
 flask==2.0.2 
 itsdangerous==2.0.1  
 jsonify==0.5
+gunicorn
