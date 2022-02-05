@@ -7,8 +7,8 @@ Created on Tue Jan 25 18:25:59 2022
 """
 
 from flask import Flask,render_template,request
-import jsonify
-import requests
+#import jsonify
+#import requests
 import joblib
 import numpy as np
 import sklearn
