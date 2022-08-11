@@ -1,5 +1,7 @@
 # Spotify Hit Predictor
 
+#### Heroku app link: https://songs-hit-predictor.herokuapp.com/
+
 ## Business Value: 
 Let's do a quick calculation: 40,000 songs a day are equivalent to 280,000 songs a week or about 1.2 million songs a month for a total of 14.6 million tracks in a year!
 
